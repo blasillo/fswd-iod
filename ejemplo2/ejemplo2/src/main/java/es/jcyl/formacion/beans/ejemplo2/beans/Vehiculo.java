@@ -17,6 +17,7 @@ public class Vehiculo {
         this.nombre = nombre;
     }
 
+
     @Override
     public String toString() {
         return "Vehiculo{" +
@@ -24,7 +25,7 @@ public class Vehiculo {
                 '}';
     }
 
-
+/*
     @PostConstruct
     public void inicializa () {
         System.out.println("Inicializando bean de vehiculo");
@@ -36,5 +37,7 @@ public class Vehiculo {
     public void destruye() {
         System.out.println("Destruyendo bean de vehiculo");
     }
+    
+ */
 }
 
