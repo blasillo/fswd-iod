@@ -23,5 +23,14 @@ public class EjemploConfig {
         pers.setVehiculo( vehiculo() );
         return pers;
     }
+/*
 
+    @Bean
+    public Persona persona (Vehiculo vehiculo) {
+        Persona pers = new Persona ();
+        pers.setNombre("Lucia");
+        pers.setVehiculo( vehiculo );
+        return pers;
+    }
+*/
 }
